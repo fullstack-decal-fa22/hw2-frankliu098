@@ -32,11 +32,19 @@ h2 {
 }
 
 .threevert {
-  height: 33.3%;
+  height: 33.33%;
 }
 
 .threehoriz {
-  width: 33.3%;
+  width: 33.33%;
+}
+
+.sixvert {
+  height: 16.67%;
+}
+
+.sixhoriz {
+  width: 16.67%;
 }
 
 .narrow {
@@ -118,17 +126,14 @@ h2 {
 
 .thailand-red {
   background-color: #b5002d;
-  height: 16.6%;
 }
 
 .thailand-white {
   background-color: white;
-  height: 16.6%;
 }
 
 .thailand-blue {
   background-color: #2e2a4c;
-  height: 33.3%;
 }
 
 /* END QUESTION 2 */
@@ -137,20 +142,14 @@ h2 {
 
 .romania-blue {
   background-color: #002c84;
-  width: 33.3%;
-  height: 100%;
 }
 
 .romania-yellow {
   background-color: #ffcf00;
-  width: 33.3%;
-  height: 100%;
 }
 
 .romania-red {
   background-color: #e10017;
-  width: 33.3%;
-  height: 100%;
 }
 
 /* END QUESTION 3 */
@@ -167,8 +166,6 @@ h2 {
 
 .mexico-green {
   background-color: #006341;
-  width: 33.3%;
-  height: 100%;
 }
 
 .mexico-img {
@@ -180,8 +177,6 @@ h2 {
 
 .mexico-red {
   background-color: #ce1126;
-  width: 33.3%;
-  height: 100%;
 }
 
 /* QUESTION 6 */
@@ -215,7 +210,7 @@ h2 {
   background-clip: content-box, padding-box;
   display: flex;
   flex-direction: rows;
-  padding: 90px 150px 90px 150px;
+  padding: 30px 30px 30px 30px;
 }
 
 .padding-red {
